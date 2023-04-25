@@ -1,5 +1,18 @@
 # Oxipng
 
+## Fork reason
+
+I like a different Cargo.toml file, based on [min-sized-rust](https://github.com/johnthagen/min-sized-rust) but still optimized for performance (```opt-level=3```), while also compressing it with [UPX](https://upx.github.io/) since Rust programs are on the heavy side.
+
+Also I use it on [Termux](https://termux.dev/) with my Android phone, so having a readily available executable is neat.
+
+Be sure to use ```git clone --depth=1``` since otherwise it still downloads everything
+
+The rest of this ReadMe is from the original author.
+
+---
+
+
 [![Build Status](https://github.com/shssoichiro/oxipng/workflows/oxipng/badge.svg)](https://github.com/shssoichiro/oxipng/actions?query=branch%3Amaster)
 [![Version](https://img.shields.io/crates/v/oxipng.svg)](https://crates.io/crates/oxipng)
 [![License](https://img.shields.io/crates/l/oxipng.svg)](https://github.com/shssoichiro/oxipng/blob/master/LICENSE)
